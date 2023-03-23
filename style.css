@@ -1,0 +1,380 @@
+.allcontent{
+    background-color: #e0dfdf;
+    border: 1px solid #6a6767;
+    padding: 5px;
+    margin-top: 20px;
+    margin: 20px;
+}
+.hedear {
+    height: 50px;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #6a6767;
+    /* box-shadow: #EDEDED 5px 5px 5px; */
+    margin-top: -25px;
+    padding-left: 20px;
+    box-shadow: 0px 3px 30px #7B7B7B29;
+
+
+}
+.icon{
+   
+   display :flex;
+   justify-content: end;
+   margin-top: 20px;
+}
+.icon .bipage1{
+    background-color: aqua;
+    border-radius: 50%;
+    position: relative;
+    right: 110px;
+    top: 3px;
+}
+.icon a{
+    text-decoration: none;
+}
+.contenair {
+    background-color: #e0e0e0;
+     display: flex;
+     /* justify-content: space-; */
+     flex-wrap: wrap;
+     gap: 50px;
+     margin-top: 80px;
+}
+.chaild{
+    background-color: #FFFFFF;
+    border: 1px solid #a7a6a6;
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    position: relative;
+    left: 70px;    
+}
+.chaild:hover{
+    box-shadow: #6a6767 8px 8px 2px ,#454343 -8px -8px 2px;
+}
+.chaild h5{
+    border-bottom: 2px solid #bebcbc;
+    padding: 10px;
+    color: #00A5EC;
+}
+.check1{
+    text-decoration: line-through;
+    color: #C2C2C2;
+}
+.check1 input{
+    background-color: #404040;
+    color: #404040;
+    
+}
+.checkinput{
+    accent-color:rgb(194, 194, 194);
+}
+
+.labelcolor{
+    color: #404040;
+}
+
+.adhover:hover{
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+/* ---media Quary page01--- */
+
+@media(min-width:300px) and (max-width:600px){
+    /* .icon{
+        justify-content: center;
+    } */
+    .haidtext{
+        display: none;
+    }
+    /* .contenair {
+
+    } */
+    .chaild{
+        width: 200px;
+        height: 200px;
+        left: 20px;
+    }
+    .chaild:hover{
+        box-shadow: #6a6767 8px 8px 2px ,#454343 -8px -8px 2px;
+    }
+    .chaild h5{
+        padding: 5px;
+    }
+}
+
+/* ---- second page ---- */
+
+.filter{
+    filter: blur(1px );
+}
+
+
+.task2{
+    background-color: #FFFFFF;
+    border: 2px solid #636262;
+    border-radius: 5px;
+    box-shadow: #404040 5px 5px 50px -35px ,#404040 -5px -5px 80px 35px;
+    width: 344px;
+    height: 150px;
+    position: absolute;
+    top: 170px;
+    right: 350px;
+    left: 350px;
+    
+}
+.task2 h5{
+    border-bottom: 2px solid #bbbbbb;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 15px;
+}
+.task2 input{
+    background-color: #F7F7F7;
+    margin-left: 15px;
+    border-radius: 2px;
+    width: 300px;
+}
+.btn{
+    position: relative;
+    left: 240px;
+    top: 28px;
+    
+}
+.deledbtn2{
+    position: relative;
+    right: 10px;
+}
+.addtaskpage2{
+    position: relative;
+    right: 12px;
+    left: 10px;
+
+}
+.pluspage2{
+    position: absolute;
+    left: 5px;
+}
+button{
+    background-color: aqua;
+    border-radius: 5px;
+    width: 80px;
+}
+
+.deletpag {
+    position: relative;
+    left: 220px;
+    top: 7px;
+}
+
+/* ---media Quary second page--- */
+
+@media (min-width:300px) and (max-width:600px) {
+    .filter{
+    filter: blur(1px );
+}
+.task2{
+    width: 200px;
+    height: 150px;
+    left: 50px;
+    
+}
+.task2 input{
+    border-radius: 5px;
+    width: 150px;
+}
+.btn{
+    left: 95px;
+    top: 15px;
+}
+.deledbtn2{
+    position: relative;
+    right: 90px;
+}
+.deletpag {
+    top: -17px;
+    /* display: flex; */
+}
+#delet{
+    position: relative;
+    top: 20px;
+    left: -150px;
+}
+}
+
+/* ----Therd page---- */
+
+
+.task3{
+    background-color: #dedede;
+    border: 1px solid #6a6767;
+    height: 100vh;
+}
+.header3{
+    border:  1px solid #6a6767;
+    background-color: #FFFFFF;
+    padding-left: 100px;
+    margin-top: 0px;
+}
+.headbtn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    color: #00A5EC;
+}
+
+.content3{
+    background-color: #FFFFFF;
+    border: 2px solid #6a6767;
+    border-top: 2px solid #6a6767;
+    border-radius: 5px;
+    width: 344px;
+    height: 180px;
+    position: relative;
+    top: 25px;
+    right: 350px;
+    left: 320px;
+}
+.conthead{
+    height: 30px;
+    background-color: #FFFFFF;
+    border-bottom : 3px solid #15131329;
+}
+
+.content3 p{
+    text-align: center;
+    color: #00A5EC;
+    font-size: 20px;
+}
+.hover:hover{
+    box-shadow: #6a6767 2px 2px 2px ,#454343 -2px -2px 2px;
+}
+a{
+    text-decoration: none;
+}
+.back{
+    position: relative;
+    left: 30px;
+}
+.addtask{
+    position: relative;
+    right: 110px;
+}
+.bgb{
+    background-color: black;
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.ads{
+    background-color: aqua;
+    color: #FFFFFF;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+}
+.bk{
+    position: relative;
+    bottom: 7px;
+}
+.linethrough{
+    text-decoration: line-through;
+    color: #C2C2C2;
+}
+.form{
+    position: relative;
+    left: 20px;
+}
+
+
+@media (min-width:300px) and (max-width:600px){
+    .task3{
+        background-color: #dedede;
+        border: 1px solid #6a6767;
+        height: 100vh;
+    }
+    
+    .headbtn{
+        justify-content: space-between;
+    }
+    
+    .content3{
+        width: 244px;
+        height: 150px;
+        left: 20px;
+       
+    }
+     .bk{
+        display: none;
+    } 
+    
+}
+
+
+/* -----Last Page----- */
+
+
+
+.blur2{
+    filter: blur(2px);
+    
+}
+
+.lasthead{
+    background-color: #FFFFFF;
+    border: 2px solid #6a6767;
+    border-radius: 5px;
+    width: 330px;    
+    height: 150px;
+    position: absolute;
+    top: 120px;
+    right: 350px;
+    left: 333px;
+}
+.btn4{
+    position: relative;
+    left: 240px;
+    top: 28px;
+}
+.lasthead h5{
+    border-bottom: 2px solid #b2b2b2;
+    padding: 10px;
+    margin-top: -2px;
+}
+.inpu{
+    margin-left:10px;
+}
+.input4{
+    width: 280px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.plusbtn4{
+    position: relative;
+    top: 3px;
+}
+.add4{
+    position: absolute;
+}
+.btnpage4{
+    width: 100px;
+    position: relative;
+    right: 30px;
+    top: 5px;
+}
+.page4head{
+    height: 20px;
+}
+.deletpag{
+    position: relative;
+    left:200px;
+}
+@media (min-width:300px) and (max-width:600px){
+    .blur2{
+        display: none;
+    }
+}
+
